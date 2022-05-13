@@ -1,0 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+nav{
+    padding: 1.3rem 4rem;
+}
+.navbar{
+    display: flex;
+}
+.brand{
+    margin-right: auto;
+    font-size: 1.2rem;
+    color: black;
+}
+.brand-list{
+    color: black;
+}
+nav ul li .nav-list{
+    margin-left: 4rem;
+    color: black;
+}
+nav ul li .nav-list:hover{
+    background-color: rgb(76, 201, 76);
+    border-radius: 12px;
+    max-width: 10%;
+    padding: 7px 26px;
+    color: white;
+}
+.nav-icon{
+    display: none;
+}
+
+
+/* MAIN CSS */
+section{
+    text-align: center;
+    padding: 8.6rem 5rem;
+    background-color: rgb(93, 189, 93);
+    /* background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+}
+.main-head{
+    display: flex;
+    flex-direction: column;
+}
+.main-head h1{
+    font-size: 1.9rem;
+    margin-bottom: 1.4rem;
+}
+.main-head p{
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.input-search{
+    font-size: 0.7rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    height: 38px;
+    width: 50%;
+    outline: none;
+    border: none;
+    
+}
+
+.input-search1{
+    background-color:  rgb(36, 146, 36);
+    border-radius: 12px;
+    max-width: 10%;
+    padding: 7px 26px;
+    color: white;  
+    height: 46px; 
+    position: relative;
+    top: 13px;
+    left: 23px;
+}
+.explore{
+    background-color: rgb(36, 146, 36);
+    border-radius: 12px;
+    padding: 16px 60px;
+    color: white;  
+    font-size: 1.4rem;
+}
+.explore span{
+    margin-left: 15px ;
+}
+
+
+/* ABOUT SECTION */
+.about-section{
+    padding: 2rem 5rem;
+    background-color: whitesmoke;
+}
+.about-item{
+    background-color: white;
+    border-radius: 13px;
+    padding: 5rem 2rem;
+    box-shadow: inset 0px 1px 1px 1px rgb(245, 248, 245);
+    position: relative;
+    display: flex;
+    bottom: 100px;
+}
+.about{
+    max-width: 30%;
+    margin-left: 12px;
+    display: flex;
+}
+.about i{
+    border-radius: 12px;
+    background-color: rgb(156, 236, 156);
+    color: green;
+    padding: 12px;
+    font-size: 1.7rem;
+    margin-right: 7px;
+}
+.about-header{
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.about-text{
+    font-size: 0.7324rem;
+    line-height: 1.5;
+}
+
+
+/* SECOND ABOUT STYLES */
+.why{
+    font-size: 1.3rem;
+    color:rgb(76, 201, 76);
+    margin-bottom: 1.3rem;
+}
+.about1{
+    background-color: white;
+    border-radius: 13px;
+    padding: 1.5rem 1.5rem;
+    box-shadow: inset 0px 1px 1px 1px rgb(245, 248, 245);
+    display: flex;
+    max-width: 23%;
+    
+  
+}
+.about1:hover{
+    background-color: rgb(76, 201, 76);
+    color: white;
+
+}
+.about1 i{
+    border-radius: 12px;
+    background-color: rgb(156, 236, 156);
+    color: green;
+    padding: 12px;
+    font-size: 1.7rem;
+    margin-right: 7px;
+}
+
+.about-header1{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+.about-text1{
+    font-size: 0.6324rem;
+    line-height: 1.5;
+}
+.about-item2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* HOT DEALS STYLE */
+.hot-deals{
+    background-color: whitesmoke;
+    padding-bottom: 4rem;
+}
+.deals{
+    font-size: 1.3rem;
+    color:rgb(76, 201, 76);
+    margin-top: 3rem;
+    margin-bottom: 1.3rem;   
+}
+
+.item-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.item img{
+    border-radius: 14px 14px 0px 0px;
+    margin-bottom: 12px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    box-shadow: inset 0px 2px 2px 2px rgb(239, 243, 239);
+    border: 2px;
+    background-color: white;
+}
+.item2{
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.rating{
+    display: flex;
+    margin-bottom: 12px;
+}
+.rating i{
+    color:rgb(76, 201, 76);
+    margin-right: 12px;
+}
+
+.location{
+    display: flex;
+    margin: 5px 0 ;
+}
+.location i{
+    color:rgb(76, 201, 76);
+    margin-right: 10px;
+}
+.num-rooms p{
+    font-size: 0.8rem;
+}
+.price{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.price-span{
+    font-size: 0.7rem;
+}
+.more-details{
+    padding: 0.4rem 1rem;
+    position: relative;
+    border-radius: 12px;
+    border: solid 2px rgb(76, 201, 76);
+    max-width: fit-content;
+    align-self:flex-end;
+    background-color: white;
+}
+.more-deals{
+    padding: 0.7rem 3rem;
+    position: absolute;
+    border-radius: 9px;
+    border: solid 2px rgb(76, 201, 76);
+    max-width: fit-content;
+    right: 95px;
+    margin-top: 24px;
+    background-color: rgb(76, 201, 76) ;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* DOWNLOAD STYLE */
+.download{
+    background-color: rgb(15, 228, 15);
+    padding: 2rem 5rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.first h3{
+   max-width: 78%;
+   font-size: 1.6rem;
+   font-weight: 600;
+   line-height: 1.5;
+}
+
+.first p{
+    max-width: 86%;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: justify;
+ }
+ .second img{
+    width: 600px; 
+    border-radius: 14px;    
+}
+
+/* WHERE OUR PROPERTIES LOCATED STYLE */
+.properties{
+    padding: 6rem 5rem;
+    background-color: whitesmoke;
+}
+.properties-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.properties-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    box-shadow: inset 0px 2px 2px 2px rgb(239, 243, 239);
+    border: 2px;
+    background-color: white;
+    margin-left: 1rem;
+}
+
+.properties-item img{
+    border-radius: 14px 14px 0px 0px;
+    margin-bottom: 12px;
+}
+.properties-item2{
+    padding: 0 1rem;
+}
+.properties-item2 h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+.properties-item2 p{
+    line-height: 1.5;
+    font-size: 0.8342rem;
+    text-align: justify;
+    margin-bottom: .86rem;
+}
+.read-more{
+    margin-bottom: 0.9094rem;
+    padding: 0.4rem 1rem;
+    position: relative;
+    border-radius: 12px;
+    border: solid 2px rgb(76, 201, 76);
+    max-width: fit-content;
+    align-self:flex-end;
+    background-color: white;
+    
+}
+
+
+
+
+/* FOOTER STYLE */
+.footer{
+    background-color: rgb(195, 240, 195);
+    padding: 2rem 5rem;
+}
+.footer-about h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:rgb(16, 180, 16);
+}
+.footer-links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-links ul li{
+    margin: 1.5rem 0;
+}
+.footer-links ul li a{
+    color: black;
+    font-size: 0.9rem;
+}
+
+footer{
+    background-color: rgb(16, 180, 16);
+    color: white;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    nav{
+        padding: 1.3rem 2rem;
+    }
+    .brand{
+     font-size: 1rem;
+     font-weight: 600;
+    
+    }
+    .brand-list{
+        color: black;
+    }
+    nav ul li .nav-list{
+        margin-left: 2rem;
+    }
+    nav ul li .nav-list:hover{
+        max-width: 8%;
+        padding: 7px 20px;
+    }
+
+    /* MAIN SECTION STYLE */
+    section{
+        padding: 6.6rem 2rem;
+    }
+    .main-head h1{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .main-head p{
+        font-size: 1rem;
+        margin-bottom: 1.4rem;
+    }
+    .search{
+        margin-bottom: 3rem;
+    }
+    .input-search{
+        font-size: 0.8rem;
+        padding: 0.7rem;
+        width: 53%;
+    }
+    .input-search1{
+        padding: 13px 30px;  
+    }
+    .explore{
+        padding: 10px 30px; 
+        font-size: 1.6rem;
+    }
+    .explore span{
+        margin-left: 17px;
+    }
+    
+    /* ABOUT SECTION STYLE */
+    .about-section{
+        padding: 2rem;
+    }
+    .about-item{
+        padding: 5rem 0.6rem;
+   }
+    .about i{
+        font-size: 1.1rem;
+    }
+    .about-header{
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+    .about-text{
+        font-size: 0.7324rem;
+    }
+    
+    /* ABOUT SECTION STYLE 2 */
+
+    .why{
+        font-size: 1.3rem;
+    }
+    .about1{
+        padding: 1.5rem 1rem;
+        max-width: 24%;
+    }
+    .about1 i{
+        font-size: 1.1rem;
+        margin-right: 7px;
+    }
+    
+    .about-header1{
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+    .about-text1{
+        font-size: 0.6324rem;
+        line-height: 1.5;
+    }
+    .about-item2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* HOT DEALS STYLE */
+
+    .deals{
+        font-size: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 1.3rem;   
+    }
+    .item-list{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item img{
+        width: 98.780%;
+    }
+    .item{
+        width: 30%;
+    }
+    .item2{
+        padding: 0.5rem 1rem;
+    }
+    .heading{
+        font-size: 0.83353rem;
+        margin-bottom: 12px;
+    }
+    .num-rooms p{
+        font-size: 0.775rem;
+    }
+    .price{
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin-bottom:  1rem;
+    }
+    .price-span{
+        font-size: 0.7rem;
+    }
+
+
+    /* DOWNLOAD STYLE */
+    .download{
+        padding: 2rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .first{
+        width: 50%;
+    }
+    .second{
+        width: 50%;
+    }
+    .first h3{
+        max-width: 93%;
+        font-size: 1.4rem;
+    }
+    .second img{
+        width: 100%; 
+        height: auto; 
+    }
+
+
+    /* WHERE OUR PROPERTIES LOCATED STYLE */
+.properties{
+    padding: 6rem 2rem;
+}
+.properties-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.properties-item{
+    margin-left: 1rem;
+}
+
+.properties-item img{
+    width: 100%;
+}
+.properties-item2{
+    padding: 0 1rem;
+}
+.properties-item2 h4{
+    font-size: 1.2rem;
+}
+.properties-item2 p{
+    font-size: 0.7342rem;
+    text-align: left;
+    margin-bottom: .86rem;
+    }
+
+
+    /* FOOTER STYLES */
+    .footer{
+        background-color: rgb(195, 240, 195);
+        padding: 2rem 2rem;
+    }
+    .footer-about h2{
+        font-size: 1.3rem;
+    }
+    .footer-links ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-links ul li{
+        margin: 1.5rem 0;
+    }
+    .footer-links ul li a{
+        color: black;
+        font-size: 0.7879rem;
+    }
+
+    footer{
+        background-color: rgb(16, 180, 16);
+        color: white;
+        padding: 1rem 5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 729px){
+    nav{
+        padding: 1.3rem 1.5rem;
+        display: flex;
+    }
+    .brand{
+        margin-right: auto;
+        font-size: 1.2rem;
+    }
+    .brand-list{
+        font-size: 1.1rem;
+    }
+    nav ul li .nav-list{
+        display: none;
+    }
+    .nav-icon{
+        display: inherit;
+        margin-left: auto;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .nav-icon a i{
+        color: black;
+        margin-left: 0.5rem;
+    }
+    /* MAIN SECTION STYLE */
+    section{
+        padding: 6.6rem 1.5rem;
+    }
+    .main-head h1{
+        font-size: 260%;
+        margin-bottom: 1rem;
+    }
+    .main-head p{
+        font-size: 1.2rem;
+        margin-bottom: 1.4rem;
+    }
+    .search{
+        margin-bottom: 3rem;
+        
+    }
+    .input-search{
+        font-size: 0.8rem;
+        padding: 0.7rem;
+        width: 90%;
+    }
+    .input-search1{
+        padding: 13px 30px; 
+        display: none; 
+    }
+    .explore{
+        padding: 10px 30px; 
+        font-size: 1.2rem;
+    }
+    .explore span{
+        margin-left: 17px;
+    }
+
+
+
+
+    /* ABOUT SECTION */
+    .about-section{
+        padding: 2rem 1rem;
+        background-color: whitesmoke;
+    }
+    .about-item{
+        background-color: white;
+        border-radius: 13px;
+        padding: 4rem 0.5rem;
+        box-shadow: inset 0px 1px 1px 1px rgb(245, 248, 245);
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        bottom: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about{
+        max-width: 48%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0.5rem 0.2rem;
+    }
+    .about i{
+        border-radius: 12px;
+        background-color: rgb(156, 236, 156);
+        color: green;
+        padding: 12px;
+        font-size: 1.7rem;
+        margin-right: 0px;
+    }
+    .about-header{
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+    .about-text{
+        font-size: 0.6324rem;
+        line-height: 1.5;
+    }
+
+    /* ABOUT WHY STYLE */
+
+    .why{
+        font-size: 1.4rem;
+        color:rgb(76, 201, 76);
+        margin-bottom: 1.2rem;
+    }
+    .about1{
+        background-color: white;
+        border-radius: 13px;
+        padding: 1.5rem 1rem;
+        box-shadow: inset 0px 1px 1px 1px rgb(245, 248, 245);
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 45%;
+        margin: 0.3rem ;
+        text-align: center;
+    }
+    .about1:hover{
+        background-color: rgb(76, 201, 76);
+        color: white;
+    }
+    .about1 i{
+        border-radius: 12px;
+        background-color: rgb(156, 236, 156);
+        color: green;
+        padding: 12px;
+        font-size: 1.7rem;
+        margin-right: 0px;
+        
+    }
+    .bxi{
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    
+    .about-header1{
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+    .about-text1{
+        font-size: 0.6324rem;
+        line-height: 1.5;
+    }
+    .about-item2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+        /* HOT DEALS STYLE */
+    .hot-deals{
+        padding-bottom: 4rem;
+    }
+    .deals{
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;   
+    }
+    .item-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;  
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        border-radius: 14px;
+        box-shadow: inset 0px 2px 2px 2px rgb(239, 243, 239);
+        border: 2px;
+        background-color: white;
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .more-deals{
+        right: 30px;
+        margin-top: 24px;
+    }
+
+        
+     /* DOWNLOAD STYLE */
+    .download{
+        background-color: rgb(15, 228, 15);
+        padding: 2rem 1.5rem;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .first h3{
+        max-width: 100%;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .first p{
+        max-width: 100%;
+        margin-top: 1.5rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .second img{
+        width: 100%; 
+        border-radius: 14px;    
+        margin-bottom: 1rem;
+    }
+
+
+    /* WHERE OUR PROPERTIES LOCATED STYLE */
+    .properties{
+        padding: 6rem 2rem;
+    }
+    .properties-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .properties-item{
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .properties-item img{
+        border-radius: 14px 14px 0px 0px;
+        margin-bottom: 12px;
+    }
+    .properties-item2{
+        padding: 0 1rem;
+    }
+
+
+    /* FOOTER STYLE */
+    .footer{
+        background-color: rgb(195, 240, 195);
+        padding: 2rem 1rem;
+    }
+    .footer-about h2{
+        font-size: 1.4rem;
+        font-weight: 600;
+        color:rgb(16, 180, 16);
+    }
+    .footer-links ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer-links ul li{
+        margin: 1rem 0;
+    }
+    .footer-links ul li a{
+        color: black;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    footer{
+        background-color: rgb(16, 180, 16);
+        color: white;
+        padding: 1rem 5rem;
+        text-align: center;
+    } 
+}
+
+
+
+@media screen and (max-width: 500px){
+    .hot-deals{
+        padding-bottom: 4rem;
+    }
+    .deals{
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;   
+    }
+    .item-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;  
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        border-radius: 14px;
+        box-shadow: inset 0px 2px 2px 2px rgb(239, 243, 239);
+        border: 2px;
+        background-color: white;
+        width: 86%;
+        margin-bottom: 1rem;
+    }
+    .more-deals{
+        right: 30px;
+        margin-top: 24px;
+    }
+   
+}
